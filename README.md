@@ -5,6 +5,6 @@ Simple Models: Includes k-Nearest Neighbors, Logistic Regression, Support Vector
 
 Advanced Models: Includes python file that produces Neural Network and Adaboost models.
 
-Front-end Interactive Website: Website that allows users to put in health information and have a prediction of whether they are at risk for heart disease returned. HTML based application. Check public folder in Front-end Interactive Website for additional readme.
+Front-end Interactive Website: Website that allows users to put in health information and have a prediction of whether they are at risk for heart disease returned. HTML based application. Check static folder in Front-end Interactive Website for additional readme.
 
 Raw_Data: Includes csv file of original data.
