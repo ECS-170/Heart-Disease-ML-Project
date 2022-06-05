@@ -13,13 +13,13 @@
     <table>
         <tr>
             <th>Prediction</th>
-            <th>Added</th>
+            <th>Features/input</th>
             <th>Actions</th>
         </tr>
         {% for task in tasks %}
             <tr>
+                <td>{{ task.predictionn[0] }}</td>
                 <td>{{ task.content }}</td>
-                <td>{{ task.date_created.date() }}</td>
                 <td>
                     <a href="/delete/{{task.id}}">Delete</a>
                     <br>
