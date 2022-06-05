@@ -1,17 +1,6 @@
 from flask import Flask, render_template, request
-import pandas as pd
 import numpy as np
-from sklearn.preprocessing import OneHotEncoder, LabelEncoder
-from sklearn.model_selection import train_test_split
-from tensorflow import keras as keras
-from keras.models import Sequential
-from keras import Input
-from keras.layers import Dense, Embedding, Flatten
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.metrics import confusion_matrix
 from sklearn.ensemble import AdaBoostClassifier
-from keras.callbacks import EarlyStopping
 import pickle
 
 app = Flask(__name__, template_folder='public', static_folder='static')
