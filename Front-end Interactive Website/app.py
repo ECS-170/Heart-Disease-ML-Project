@@ -45,7 +45,7 @@ def predict():
   mh = request.form.get("mh")
   sleep = request.form.get("sleep")
 
-  inputsDict = {"Male":1, "Female":0, "American Indian/Alaskan Native":0, "Asian":0, "Black":0, "Hispanic":0, "White":1, "Other":0, "Poor":0, "Fair":1, "Good":2, "Very Good":3, "Excellent":4, None:0, "smoker":1, "alcohol":1, "stroke":1, "walking":1, "diabetic":1, "active":1, "kidney":1, "asthma":1, "skin":1, "18-24":0, "25-29":1, "30-34":2, "35-39":3, "40-44":4, "45-49":5, "50-54":6, "55-59":7, "60-64":8, "65-69":9, "70-74":10, "75-79":11, "80 or older":12}
+  inputsDict = {"Male":1, "Female":0, "American Indian/Alaskan Native":0, "Asian":0, "Black":0, "Hispanic":0, "White":1, "Other":0, "Poor":0, "Fair":1, "Good":2, "Very good":3, "Excellent":4, None:0, "smoker":1, "alcohol":1, "stroke":1, "walking":1, "diabetic":1, "active":1, "kidney":1, "asthma":1, "skin":1, "18-24":0, "25-29":1, "30-34":2, "35-39":3, "40-44":4, "45-49":5, "50-54":6, "55-59":7, "60-64":8, "65-69":9, "70-74":10, "75-79":11, "80 or older":12}
 
   inputs = np.array([bmi, inputsDict[smoker], inputsDict[alcohol], inputsDict[stroke], ph, mh, inputsDict[walking], inputsDict[sex], inputsDict[age], inputsDict[race], inputsDict[diabetic], inputsDict[active], inputsDict[health], sleep, inputsDict[asthma], inputsDict[kidney], inputsDict[skin]])
 
